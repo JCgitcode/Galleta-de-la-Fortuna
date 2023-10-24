@@ -1,0 +1,40 @@
+.app {
+    background-image: url('../fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_tittle {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4em;
+}
+
+.app__card {
+    background-color: #FFF8;
+    padding: 0.8em 1.2em;
+    border-radius: 0.8em;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1.8em;
+}  
+
+.app__btn {
+    display: block;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 0.5em 1em;
+    font-size: 1.1rem;
+    border-radius: 2em;
+    transition: font-size 100ms ease;
+}
+
+.app__btn:hover {
+    font-size: 1.2rem;
+}
